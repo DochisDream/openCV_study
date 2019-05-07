@@ -17,7 +17,7 @@ destroyWindow()     주어진 윈도우만 파괴
 """
 import cv2
 
-imageFile='C:/Users/bit/AppData/Local/Programs/Python/Python37/data/lena.jpg'
+imageFile = './data/lena.jpg'
 img = cv2.imread(imageFile) # if(flag== default) => color
 img2 = cv2.imread(imageFile,0) #if(flag==0) => grayscale
 
